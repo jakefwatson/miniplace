@@ -3,10 +3,15 @@ These scripts can be used for simulation of mini (mPSC) data. It was written for
 
 Included files:
 minisimulation.m - Main script for event simulation
+
 miniranscaler.m - Function for recording simulation, reliant on minigener and noisegener
+
 minigener.m - Generates simulated events
+
 noisegener.m - Generates simulated recording noise
+
 eventfitter.m - Fits detected events with a biexponential function for peak amplitude measurement
+
 gaussian_fir.m - Returns FIR filter coefficients for a Gaussian low-pass filter
 
  
