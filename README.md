@@ -20,7 +20,6 @@ This project uses material from:
 
 Julius O. Smith III, *Spectral Audio Signal Processing*.  
 https://ccrma.stanford.edu/~jos/sasp/  
-Licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 and based some analysis on:
 William Rose, *1D Gaussian lowpass filter*.
