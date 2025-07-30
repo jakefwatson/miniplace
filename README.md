@@ -16,3 +16,13 @@ eventfitter.m - Fits detected events with a biexponential function for peak ampl
 gaussian_fir.m - Returns FIR filter coefficients for a Gaussian low-pass filter
 
  
+This project uses material from:
+
+Julius O. Smith III, *Spectral Audio Signal Processing*.  
+https://ccrma.stanford.edu/~jos/sasp/  
+Licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+and based some analysis on:
+William Rose, *1D Gaussian lowpass filter*.
+https://de.mathworks.com/matlabcentral/fileexchange/12606-1d-gaussian-lowpass-filter
+MATLAB File Exchange 12606
