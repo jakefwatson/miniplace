@@ -27,10 +27,6 @@
 % This function outputs the measured peak amplitude ('peak'), and the
 % parameters of fit (a vector 'output').
 %
-% As this function fits events as a biexponential function formed of a
-% rising and decaying exponential, the imported data should be provided
-% with minimal (to no) baseline points preceding event onset.
-%
 % Written by Jake Watson for Greger & Watson 2024 (doi: doi.org/10.1101/2024.10.26.620084)
 
 function [peak,output] = eventfitter(ex,why) 
@@ -49,3 +45,4 @@ output = coeffvalues (f1);
 peak = min(f(output(1), output(2), output(3), output(4), x));
 
 end
+
