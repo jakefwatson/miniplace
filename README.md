@@ -15,6 +15,8 @@ eventfitter.m - Fits detected events with a biexponential function for peak ampl
 
 gaussian_fir.m - Returns FIR filter coefficients for a Gaussian low-pass filter
 
+limiter.m - function for broken stick estimation of the detection limit from mini datasets recorded at two holding potentials
+
  
 This project uses material from:
 
