@@ -105,7 +105,7 @@ fakedecay = lognrnd(1.7,0.4,[100*n 1]); % Distribution of decay time constants c
 fakedecay(fakedecay<1) = []; % Minimum decay time constant cutoff
 fakedecay(fakedecay>25) = []; % Maximum decay time constant cutoff
 fakedecayset = fakedecay(1:n,1);
-if modcode == 5 % If modifier is 'kim' kinetics - values are set rather than chosen from a distribution.
+if modcode == 5 % If modifier is 'kin' kinetics - values are set rather than chosen from a distribution.
     fakeriseset(:) = 0;
     fakedecayset(:) = 5;
 end
@@ -188,5 +188,6 @@ end
 
 %% ------ Generating time --------
 time = linspace(0,0.07,(size(events,1)));
+
 
 end
